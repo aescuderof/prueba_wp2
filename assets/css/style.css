@@ -72,9 +72,12 @@ font-family: 'Lato', sans-serif;
 color: white;
 }
 
-.mapa {
-width: 100%;
-max-width: 5800px;
+.cover {
 
+	object-fit: cover;
+width:1050px;
+height:200px;
 }
+
+
 
