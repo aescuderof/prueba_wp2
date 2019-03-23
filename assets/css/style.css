@@ -132,5 +132,12 @@ height: 400px;
 float: left;
 }
 
+.footer {
+margin-top: 20px;	
+display: inline-block;
+text-align: center;
+
+}
+
 
 
