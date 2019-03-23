@@ -1,12 +1,15 @@
 .row {
 margin-right: 5px;
 margin-left: 5px;
+margin-top: 70px;
+margin-bottom: 70px;
 
 }
 
 .titulo{
 padding-top: 10px;
-padding-bottom: 10px;	
+padding-bottom: 10px;
+margin-left: 300px;	
 }
 
 
@@ -18,17 +21,38 @@ margin-top: 5px;
 
 .image { 
    position: relative; 
-   width: 100%;
+   width: 100%; /* for IE 6 */
+   margin-left: 0px;
 }
 
-h2 { 
+h2{ 
    position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 20%; 
-   padding-top: 20px;
-   padding-bottom: 20px;
-   background: black; 
+   top: 50%; 
+   right: -500px; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 30px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0);
+   padding: 60px; 
+}
+
+.ensalada { 
+   position: relative; 
+   width: 100%;
+   margin-left: 53%;
+ 
+}
+
+#ensalada {
+	position: absolute;
+	top: 50%;
+	left: -500px;
+
 
 }
 
@@ -68,7 +92,7 @@ li a:hover {
 body {
 
 background-color: black;
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 color: white;
 }
 
